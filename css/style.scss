@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,700,800&display=swap');
 
+
 @for $i from 1 through 12 {
   .col-#{$i} { width: 8.3333% * $i; }
 }
+
 
 
 @mixin btn ( $bg-color ) {
@@ -560,6 +562,9 @@ header{
 	&__box{
 		display: flex;
 	}
+	&__form{
+		margin-bottom: 120px;
+	}
 	&__form input,
 	&__form textarea{
 		width: 500px;
@@ -980,6 +985,7 @@ footer{
 	.contacts__address{
 		width: 100%;
 		padding: 0;
+		margin-bottom: 30px;
 	}
 	.contacts__form input,
 	.contacts__form textarea{
@@ -1192,6 +1198,7 @@ footer{
 	.contacts__address{
 		width: 100%;
 		padding: 0;
+		margin-bottom: 30px;
 	}
 	.contacts__form input,
 	.contacts__form textarea{
